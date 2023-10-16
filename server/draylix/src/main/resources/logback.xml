@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 配置输出到控制台的Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy.MM.dd  HH:mm:ss}  %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 配置输出到文件的Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>log.txt</file> <!-- 指定输出文件的名称 -->
+        <append>true</append> <!-- 设置为true以追加日志到文件，false则覆盖 -->
+        <encoder>
+            <pattern>%d{yyyy.MM.dd  HH:mm:ss}  %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 配置根Logger，同时引用CONSOLE和FILE Appender -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/> <!-- 引用FILE Appender -->
+    </root>
+</configuration>
