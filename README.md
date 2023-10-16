@@ -14,17 +14,17 @@
 
 控制面板
 
-![Draylix](https://github.com/Uchashmoq/Draylix/tree/main/imgs/gui1)
+![Draylix](https://github.com/Uchashmoq/Draylix/blob/main/imgs/gui1.png)
 
 添加节点
 
-![Draylix](https://github.com/Uchashmoq/Draylix/tree/main/imgs/gui2)
+![Draylix](https://github.com/Uchashmoq/Draylix/blob/main/imgs/gui2.png)
 
 ## 命令行版
 
 输入on，off打开，关闭系统代理，help查看更多指令
 
-![Draylix](https://github.com/Uchashmoq/Draylix/tree/main/imgs/cmd)
+![cmd](https://github.com/Uchashmoq/Draylix/blob/main/imgs/cmd.png)
 
 ## 服务端
 
