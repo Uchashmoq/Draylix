@@ -1,0 +1,8 @@
+{
+  "log_path": "./log.txt",
+  "selected_proxy": "vultr1",
+  "proxy_on": 0,
+  "listen_addr": "127.0.0.1:9945",
+  "valid_time": 30,
+  "hand_shake_time": 10
+ }

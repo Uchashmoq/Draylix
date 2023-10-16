@@ -1,0 +1,11 @@
+{
+  "vultr1": {
+   "index": 1,
+   "name": "vultr1",
+   "country": "singapore",
+   "token": "m^4N@vRz50",
+   "address": "127.0.0.1:9945",
+   "initialVector": "Q0V3akJNM2luWnVScW8xQg==",
+   "initialKey": "SDVycnV4cUZ5SWYwVWRVQmhKVnJkM0JrOEYyNzJLUFk="
+  }
+ }
